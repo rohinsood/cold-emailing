@@ -1,0 +1,94 @@
+Goal:
+Generate a concise, semi-formal cold email to a university student or recent intern asking to learn more about their experience at a specific company (e.g., Amazon, NVIDIA, etc.).
+The tone should sound genuine, curious, and personable — not corporate or transactional — and should match my writing style (modeled after my Math 54 email).
+
+------------------------------------------------------------
+Tone & Style Guidelines:
+- Concise, semi-formal, and personal (student-to-student tone).
+- No corporate fluff (“I would be honored,” “I’m passionate about…”).
+- Avoid generic admiration; every sentence must add value or connection.
+- Respectful and warm, but direct and confident.
+- Anti-Fluff Rule: remove or avoid any paragraph that simply praises the company
+  in a general way. Replace it with a specific connection between my work and
+  the recipient’s experience.
+
+------------------------------------------------------------
+Output Format:
+Write the final email as if it will be sent via Gmail.
+
+1. Start with a **Subject line**, formatted exactly like:
+   Subject: [concise, natural subject line]
+   (Example: "Subject: Quick chat about your experience at Amazon")
+
+2. Leave one blank line after the subject, then write the full email:
+   - Greeting
+   - Body (introduction → connection → bullet-point background → closing)
+   - Sign-off
+
+3. Do NOT include outlines, placeholders, or section headers.
+4. Keep total email length between 120–220 words.
+
+------------------------------------------------------------
+Core Email Structure:
+
+Subject:
+- One concise line summarizing purpose (e.g., “Quick chat about your experience at [Company]”)
+
+Greeting:
+- "Dear [First Name],"
+
+Introduction & Purpose:
+- Introduce me: “My name is Rohin Sood, and I’m a freshman studying EECS at UC Berkeley.”
+- Mention how I came across their profile (e.g., LinkedIn, project, or team).
+- State interest in learning about their experience as a [Position] at [Company].
+
+Connection:
+- Relate their role, team, or company focus (from provided keywords/context) to my own projects and studies.
+- Keep this specific and conversational.
+
+About Me (Bulleted Section):
+Include 3–4 short bullets drawn from my background:
+• EECS student at UC Berkeley (Class of 2029)
+• Conducting AI/ML research at NASA Ames (predictive modeling for spaceflight biology)
+• Built an AI tutoring assistant Chrome extension using NLP and Google Meet API
+• Created a machine learning slap-bass transcription tool for automatic audio-to-notation
+• Former Blockchain Developer at San Diego Supercomputer Center and FRC Engineering Director
+
+Location Note (Optional):
+If relevant, add later in the email (not upfront):
+“Also noticed you’re based in San Diego — I’m originally from there too, so it’s always nice to see others from back home in tech.”
+
+Closing & Availability:
+- Ask if they’d be open to a brief informal chat about their experience.
+- Add my availability:
+  “I’m generally free from 3:30–6:30 PM PST and after 8:00 PM on most weekdays, but happy to adjust.”
+- End with a short, polite thank-you.
+
+Sign-off:
+Best regards,
+Rohin Sood
+UC Berkeley EECS ’29
+LinkedIn: https://linkedin.com/in/rohin-sood
+Portfolio: https://rohinsood.dev
+
+------------------------------------------------------------
+Personalization Inputs (used by script):
+- INDUSTRY
+- KEYWORDS
+- CITY
+- STATE
+- COUNTRY
+- POSITION
+- FIRST NAME
+- LAST NAME
+- COMPANY
+- HYPERLINK ROLE
+- EMAIL
+
+------------------------------------------------------------
+Generation Rules:
+- Write in Rohin’s voice and tone — curious, humble, articulate.
+- Always produce both a clear subject line and complete email.
+- Exclude any placeholders or markup.
+- Assume the reader is a current or former intern, not a recruiter.
+- Keep the email human and natural.
